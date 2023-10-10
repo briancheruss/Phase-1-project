@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bk store</title>
+    <!-- Add Bootstrap CSS from CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Your custom CSS (if any) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Bk store</a>
+            
+            <!-- Search bar in the middle -->
+            <form class="form-inline mx-auto">
+                <div class="input-group">
+                    <input class="form-control" type="text" placeholder="Search for phones" aria-label="Search" aria-describedby="search-button">
+                    <button class="btn btn-outline-light" type="submit" id="search-button">Search</button>
+                </div>
+            </form>
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        
+    
+    <div class="container">
+        <h1 class="mt-5">Samsung phones</h1>
+        <div class="row mt-4" id="productRow">
+            <!-- Product cards will be dynamically added here -->
+        </div>
+        <div class="comments">
+            <h6>Comments</h6>
+            <ul class="list-unstyled comment-list">
+                <!-- Comments will be added dynamically here -->
+            </ul>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control comment-input" placeholder="Add a comment">
+                <button class="btn btn-outline-secondary add-comment-button" type="button">Post</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <h5>Contact Us</h5>
+                    <p>Email: Briancherus4@gmail.com</p>
+                    <p>Phone: +2546171911</p>
+                </div>
+
+                    <div class="col-md">
+                        <h5>Terms and conditions</h5>
+                        <p>privacy policy</p>
+                        <p>about us</p>
+                        <p>Refund and Return Policy</p>
+                    </div>
+                
+                <div class="col-md-6">
+                    <h5>Follow Us</h5>
+                     <a href="#" class="text-white">
+                        <img src="./images/facebook.svg" alt="Facebook" class="social-logo">
+                    </a>
+                    <a href="#" class="text-white">
+                        <img src="./images/twitter.svg" alt="Twitter" class="social-logo">
+                    </a>
+                    <a href="#" class="text-white">
+                        <img src="./images/instagram.svg" alt="Instagram" class="social-logo">
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    &copy; 2023 Bk store All rights reserverd
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
