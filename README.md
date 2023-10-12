@@ -39,4 +39,4 @@
 
 ### License
 *Licenced under the MIT Licence
-Copyright (c) 2023 **Brian Cherus
+Copyright (c) 2023 **Brian Cherus.
