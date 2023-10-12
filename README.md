@@ -1,7 +1,7 @@
 #### Bk Store - Phone Selling Website, 09/10/2023
 #### **By Brian Cherus**
 ## Project Description
-    Bk Store is a simple web application for selling Samsung phones. It provides users with information about various Samsung phone models and allows them to add items to their cart. The application also features a contact page and a comment section for each phone model.
+    Bk Store is a simple web application for selling Samsung phones. It provides users with information about various Samsung phone models and allows them to add items to their cart. The application also features a contact page and a review section for each phone model.
 ## Features
   -Display a list of Samsung phone models.
   -View details of each phone, including an image, name, description, and price.
@@ -22,7 +22,7 @@ The website is https://briancheruss.github.io/Phase-1-project/
   -Browse the list of Samsung phone models on the "Products" page.
   -Add phones to your shopping cart (can not buy).
   -Contact the store via email or phone on the "Contact Us" page.
-  -Leave comments on phone's page (comments are not saved across page reloads).  
+  -Leave review on phone's page (reviews are not saved across page reloads).  
 
 
 ## Known Bugs
