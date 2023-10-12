@@ -41,7 +41,7 @@ function deleteComment(comment) {
 
 // Function to fetch phone data from the local server
 function fetchPhoneData() {
-    fetch('http://localhost:3000/phones')
+    fetch('https://phone-store-javascript.onrender.com/phones')
         .then(response => response.json())
         .then(data => {
             // Loop through the data and create product cards
