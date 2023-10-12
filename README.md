@@ -13,7 +13,7 @@
     - Extract the files
     - Open the folder with vs code.
     - Then run "json-server --watch database.json" to run our server.
-    - The run your index.html by either using the "GO LIVE" extension or by double clicking of the inde.html
+    - The run your index.html by either using the "GO LIVE" extension or by double clicking of the index.html
     - And your application is running.
        
 ## Usage
