@@ -29,3 +29,18 @@
     margin-right: 150px;
     padding: 0%;
 }
+
+/* delete button css */
+.delete-button {
+    background-color: #ff5555; 
+    color: #fff; 
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Style the delete button on hover */
+.delete-button:hover {
+    background-color: #ff3333; /* Darker red on hover */
+}

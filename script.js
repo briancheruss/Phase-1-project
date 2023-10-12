@@ -11,6 +11,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 const commentList = button.parentElement.parentElement.querySelector('.comment-list');
                 const newComment = document.createElement('li');
                 newComment.textContent = commentText;
+
+                // Create a delete button for the comment
+                const deleteButton = document.createElement('button');
+                deleteButton.textContent = 'Delete';
+                deleteButton.classList.add('delete-button');
+                newComment.appendChild(deleteButton);
+
+                // Attach a click event listener to the delete button
+                deleteButton.addEventListener('click', () => {
+                    deleteComment(newComment);
+                });
+
                 commentList.appendChild(newComment);
 
                 // Clear the comment input field
@@ -19,6 +31,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+// Function to delete a comment
+function deleteComment(comment) {
+    const commentList = comment.parentElement;
+    commentList.removeChild(comment);
+    // You can also make an API request to delete the comment on the server here.
+}
 
 // Function to fetch phone data from the local server
 function fetchPhoneData() {
