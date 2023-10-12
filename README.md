@@ -15,6 +15,8 @@
     - Then run "json-server --watch database.json" to run our server.
     - The run your index.html by either using the "GO LIVE" extension or by double clicking of the index.html
     - And your application is running.
+## live link
+The website is https://briancheruss.github.io/Phase-1-project/
        
 ## Usage
   -Browse the list of Samsung phone models on the "Products" page.
