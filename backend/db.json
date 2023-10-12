@@ -1,0 +1,46 @@
+{
+    "phones": [
+      {
+        "id": 1,
+        "name": "Samsung galaxy s21 5g",
+        "image": "https://mophones.co/cdn/shop/files/s215g2_680x.jpg?v=1692170106",
+        "description": "Fast,efficient",
+        "price": 820
+      },
+      {
+        "id": 2,
+        "name": "Samsung s20+",
+        "image": "https://mophones.co/cdn/shop/products/galaxy_s20_plus_5g_cloud_blue_image_0_e9bb8938-8c5a-47a2-8c97-942e3c1a8ba8_700x.jpg?v=1674848594",
+        "description": "Best deal",
+        "price": 899
+      },
+      {
+        "id": 3,
+        "name": "Samsung S22 Ultra",
+        "image": "https://mophones.co/cdn/shop/files/samsung-galaxy-s22-ultra-5g-2_614x.jpg?v=1694767808",
+        "description": "Amazing deal",
+        "price": 999
+      },
+      {
+        "id": 4,
+        "name": "Samsung Galaxy Note 10 Plus",
+        "image": "https://www.phone-x.co.ke/wp-content/uploads/2020/08/Samsung-Galaxy-Note10-Plus-Black.png",
+        "description": "Fast deal",
+        "price": 650
+      },
+      {
+        "id": 5,
+        "name": "Samsung Galaxy A42 5G",
+        "image": "https://image-us.samsung.com/SamsungUS/home/smartphones/galaxy-a42-5g/sm-a426uz/gallery/SM_A426_Galaxy_A42_5G_Black_LockUp_1600x1200.jpg?$product-details-jpg$",
+        "description": "Best deal",
+        "price": 399
+      },
+      {
+        "id": 6,
+        "name": "Samsung Galaxy A52",
+        "image": "https://mophones.co/cdn/shop/files/A523_500x.jpg?v=1695294841",
+        "description": "Grab quick",
+        "price": 450
+      }
+    ]
+  }
